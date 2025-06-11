@@ -1,0 +1,44 @@
+﻿@model List<RealEstateDemo.ViewModels.PropertyIndexViewModel>
+
+<div>
+    <div class="container">
+        <div class="row">
+            @foreach (var property in Model)
+            {
+                <div class="col card">
+                    <div class="card-body">
+                        <img src="lib/images/house.jpg" alt="House" />
+                        <h5 class="card-title">@property.DisplayPrice</h5>
+                        <p class="card-text">This is a property at @property.DisplayAddress</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col"><i class="fa-solid fa-bed"></i> 8 Beds</div>
+                                <div class="col"><i class="fa-solid fa-sink"></i>4 Baths</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="row">
+            @foreach (var property in Model)
+            {
+                <div class="col card">
+                    <div class="card-body">
+                        <img src="lib/images/house.jpg" alt="House" />
+                        <h5 class="card-title">@property.DisplayPrice</h5>
+                        <p class="card-text">This is a property at @property.DisplayAddress</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col"><i class="fa-solid fa-bed"></i> 7 Beds</div>
+                                <div class="col"><i class="fa-solid fa-sink"></i>4 Baths</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    
+</div>
+
