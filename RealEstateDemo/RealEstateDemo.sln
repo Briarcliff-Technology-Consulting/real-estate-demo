@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RealEstateDemo.Sql", "..\RealEstateDemo.Sql\RealEstateDemo.Sql.sqlproj", "{2838F519-984A-4B70-90ED-F4F82224199B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,12 @@ Global
 		{63D2C51F-E64C-41E4-86E3-051E8A79F3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63D2C51F-E64C-41E4-86E3-051E8A79F3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63D2C51F-E64C-41E4-86E3-051E8A79F3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2838F519-984A-4B70-90ED-F4F82224199B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2838F519-984A-4B70-90ED-F4F82224199B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2838F519-984A-4B70-90ED-F4F82224199B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2838F519-984A-4B70-90ED-F4F82224199B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2838F519-984A-4B70-90ED-F4F82224199B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2838F519-984A-4B70-90ED-F4F82224199B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
